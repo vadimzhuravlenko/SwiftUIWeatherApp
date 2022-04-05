@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadinView: View {
+struct LoadingView: View {
     var body: some View {
         ProgressView()
             .progressViewStyle(CircularProgressViewStyle(tint: .white))
@@ -15,8 +15,8 @@ struct LoadinView: View {
     }
 }
 
-struct LoadinView_Previews: PreviewProvider {
+struct LoadingView_Previews: PreviewProvider {
     static var previews: some View {
-        LoadinView()
+        LoadingView()
     }
 }
